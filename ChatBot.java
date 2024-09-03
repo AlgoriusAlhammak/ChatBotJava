@@ -107,7 +107,7 @@ public class ChatBot extends JFrame implements KeyListener{
 			//-----grab quote-----------
 			String quote = input.getText().trim();
 			input.setText("");
-			addText("-->You:\t" + quote);
+			addText("-->Algorius:\t" + quote);
 			
 			// Remove punctuation at the end
 			while(quote.length() > 0 && 
@@ -130,7 +130,7 @@ public class ChatBot extends JFrame implements KeyListener{
 			
 			if(response == 0){
 				int r = (int)Math.floor(Math.random() * chatBot[chatBot.length - 1].length);
-				addText("\n-->Bot\t" + chatBot[chatBot.length - 1][r]);
+				addText("\n-->Bot:\t" + chatBot[chatBot.length - 1][r]);
 			}
 			
 			addText("\n");
