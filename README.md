@@ -12,6 +12,6 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/algorius/chat-bot.git
-   cd chat-bot
+   git clone https://github.com/AlgoriusAlhammak/ChatBotJava.git
+   cd ChatBotJava
 2. Run The Application 
